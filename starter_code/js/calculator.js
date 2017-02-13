@@ -84,7 +84,7 @@ $(document).ready(function()
 					$('#question').prepend("log(");
 					$('#question').append(")");					
 				}
-
+				
 				$('#question').append(" =");
 				$('#answer').append(answer).hide().fadeIn(1000);				
 			}
